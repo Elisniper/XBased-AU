@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+body {
+  font:normal 75% Arial, Helvetica, sans-serif;
+  margin: 0;
+  background:#141414;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar-thumb {
+    background: #3F85FF !important;
+}
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+/* title description START */
+.title {
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  margin-top: 40px;
+}
+.description {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  max-width: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+#center {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  height: fit-content;
+}
+a {
+  text-decoration:none !important;
+}
+.material-icons {
+  font-size: 20px;
+  margin-right: 4px;
+}
+body #center.preview-container {
+  margin-top: 50px;
+  height: 150px;
+  position: relative;
+  z-index: 1;
+}
+/* title description END */
