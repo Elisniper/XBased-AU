@@ -7,6 +7,12 @@ body {
   background:#141414;
   overflow-x: hidden;
 }
+::-webkit-scrollbar-thumb {
+  background: #3F85FF !important;
+}
+::-webkit-scrollbar {
+  width: 3px;
+}
 
 .sidebar {
   height: 100%;

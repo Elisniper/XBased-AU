@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+
+body {
+  font:normal 75% Arial, Helvetica, sans-serif;
+  margin: 0;
+  background:#141414;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar-thumb {
+  background: #3F85FF !important;
+}
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+.BDD-page {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.BDD-page a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+  }
+
+/* title description and button START */
+.title {
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  margin-top: 40px;
+}
+.description {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  max-width: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+#center {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  height: fit-content;
+}
+.primary-button {
+  background-color: #3F85FF;
+  border:none !important;
+  margin-top: 10px !important;
+  margin: auto;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Roboto,sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-size: .725rem;
+  font-weight: 600;
+  letter-spacing: .0892857143em;
+  min-width: 64px;
+  height: 34px;
+  padding: 0 16px 0 16px;
+  overflow: hidden;
+  border-radius: 2px;
+  box-shadow: 0 0 10px #1973d3;
+  transition: 250ms ease all;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+a {
+  text-decoration:none !important;
+}
+.primary-button:hover {
+    box-shadow: 0 0 20px #135193;
+    background: #135193;
+}
+.material-icons {
+  font-size: 20px;
+  margin-right: 4px;
+}
+body #center.preview-container {
+  margin-top: 50px;
+  height: 150px;
+  position: relative;
+  z-index: 1;
+}
+/* title description and button END */
+  
