@@ -28,15 +28,15 @@ body {
 }
 
 .BDD-page a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 20px;
-    color: #818181;
-    display: block;
-  }
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
 .BDD-page a:hover {
-    color: #f1f1f1;
-  }
+  color: #f1f1f1;
+}
 
 .main {
   display: block;
@@ -100,8 +100,8 @@ a {
   text-decoration:none !important;
 }
 .primary-button:hover {
-    box-shadow: 0 0 20px #135193;
-    background: #135193;
+  box-shadow: 0 0 20px #135193;
+  background: #135193;
 }
 .material-icons {
   font-size: 20px;
