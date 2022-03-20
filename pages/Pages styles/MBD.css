@@ -17,7 +17,7 @@ body {
 .BDD-page {
   height: 100%;
   width: 160px;
-  position: fixed;
+  position: absolute;
   z-index: 1;
   top: 0;
   left: 0;
@@ -36,10 +36,13 @@ body {
 .BDD-page a:hover {
     color: #f1f1f1;
   }
-
-
+  
 .main {
- display: flex;
+    display: block;
+    height: 100%;
+    width: auto;
+    margin-left: 170px;
+    margin-right: 10px;
 }
 
 /* title description and button START */
@@ -188,6 +191,7 @@ img {
 }
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+  .prev, .next,.text {font-size: 11px;}
+  img {width: 30%;}
 }
 /* image slides END */
