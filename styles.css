@@ -13,8 +13,7 @@ body {
 ::-webkit-scrollbar {
   width: 3px;
 }
-
-.sidebar {
+.topbar {
   height: 45px;
   width: 100%;
   position: fixed;
@@ -26,18 +25,18 @@ body {
   overflow-x: hidden;
   padding-top: 16px;
 }
-.sidebar a {
-  padding: 6px 8px 6px 16px;
+.topbar-links a {
+  margin: 6px 12px 6px 12px;
+  padding-bottom: 12px;
   text-decoration: none;
   font-size: 20px;
   color: #818181;
-  display: block;
+  display: inline-block;
 }
-.sidebar a:hover {
-  color: #f1f1f1;
+.topbar-links a:hover {
+  color: #FFF;
 }
-
-.main {
-  margin-left: 160px; /* Same as the width of the sidenav */
-  padding: 0px 10px;
+.topbar-links a[aria-selected="true"] {
+  border-bottom: 2px solid #FFF;
+  color: #FFF;
 }
