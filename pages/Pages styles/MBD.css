@@ -5,7 +5,7 @@ body {
   font:normal 75% Arial, Helvetica, sans-serif;
   margin: 0;
   background:#141414;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 ::-webkit-scrollbar-thumb {
   background: #3F85FF !important;
@@ -23,7 +23,7 @@ body {
   top: 0;
   left: 0;
   background-color: #111;
-  overflow-x: hidden;
+  overflow: hidden;
   padding-top: 16px;
 }
 
