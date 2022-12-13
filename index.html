@@ -1,48 +1,130 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <title>XBased.net</title>
-    <meta name = "description" content="XBased.net">
-    <meta name = "author" content="Elisniper">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="HandheldFriendly" content="true">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/png" sizes="64x64" href="/resources/Logo.png">
-  </head>
-  
-  <body>
+    <head>
+        <title>XBased</title>
+        <meta name = "description" content="XBased.net">
+        <meta name = "author" content="Elisniper">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="HandheldFriendly" content="true">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/png" sizes="64x64" href="/resources/Logo.png">
+    </head>
 
-    <div class="topbar">
+    <body>
+        
+        <div class="topbar">
+            <div class="BDD-topbar-links">
+                <a href="/index.html" aria-selected="false" class="home"> Xbased.net </a>
+                <a href="https://github.com/Elisniper" aria-selected="false" class="GitHub"> GitHub </a>
+                <a href="#projects_section" aria-selected="false" class="projects"> Projects </a>
+            </div>
+        </div>
 
-      <div class="topbar-links"> 
-        <a href="/index.html" aria-selected="true" class="home"> Home </a> 
-        <a href="/pages/MBD.html" aria-selected="false" class="MBD"> Material Blue Discord </a> 
-      </div>
 
-    </div>
+        <div class="main">
 
-    <div class="main">
+            <div class="background" >
+                <ul class="circles">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                </ul>
+              </div >
 
-      <div class="background" >
-        <ul class="circles">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-        </ul>
-      </div >
-      
-    </div>
+              <div class="container1">
+                <div class="Introduction">
+                  <div class="intoLine1">Hello There</div>
+                  <div class="intoLine2">Welcome to Xbaed</div>
+                </div>
+
+              </div>
+
+            <div id=projects_section class="projects_section"> </div>
+            <!-- MBD - Title | description | button START -->
+            <div class="MDB">
+            <div Class="title">MBD</div>
+            <div id="center">
+            <div class="description">Material Blue Discord Theme.</div>
+            </div>
+
+            <div id="center">
+            <a href="https://github.com/Elisniper/MBD/tree/main">
+            <button class="primary-button download-button"><div class="material-icons"></div>Download Latest</button>
+            </a>
+            </div>
+            <!-- Title | description | button END -->
+
+
+            <!-- Image slides START -->
+            <div class="slideshow-container">
+
+            <div class="mySlides fade">
+            <img src="https://github.com/Elisniper/MBD/blob/main/resources/Image%201.PNG?raw=true" style="max-width:100%;height:auto;">
+            </div>
+            
+            <div class="mySlides fade">
+            <img src="https://github.com/Elisniper/MBD/blob/main/resources/Image%202.PNG?raw=true"style="max-width:100%;height:auto;">
+            </div>
+            
+            <div class="mySlides fade">
+            <img src="https://github.com/Elisniper/MBD/blob/main/resources/Image%203.PNG?raw=true" style="max-width:100%;height:auto;">
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+            
+            <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+            showSlides(slideIndex += n);
+            }
+            function currentSlide(n) {
+            showSlides(slideIndex = n);
+            }
+            function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            }
+            </script>
+            <!-- Image slides END -->
+          </div> 
+
+
+
+        </div>
     
-  </body>
+    </body>
 
 </html>
