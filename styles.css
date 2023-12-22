@@ -1,5 +1,9 @@
-@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
-
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.googleapis.com/icon?family=Material+Icons) format('woff2');
+}
 
 body {
   font:normal 75% Arial, Helvetica, sans-serif;

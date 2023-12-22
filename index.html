@@ -6,11 +6,35 @@
         <meta name = "description" content="XBased.net">
         <meta name = "author" content="Elisniper">
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="HandheldFriendly" content="true">
         <link rel="stylesheet" href="styles.css">
         <link rel="icon" type="image/png" sizes="64x64" href="/resources/Logo.png">
+        <style>
+          /* Media queries & mobile-specific styles */
+          @media screen and (max-width: 600px) {
+              body {
+                  font-size: 14px;
+              }
+              .intoLine1, .intoLine2 {
+                font-size: 50px;
+              }
+              .desc {
+                  width: 150px;
+              }
+              .thumbnail {
+                  right: 150px;
+              }
+              .showcase:hover .desc {
+                  width: 190px;
+              }
+              .showcase:hover .thumbnail {
+                  right: 150px;
+                  left: -25px;
+              }
+          }
+      </style>
     </head>
 
     <body>
