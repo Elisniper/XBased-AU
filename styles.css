@@ -20,7 +20,9 @@ body {
 ::selection {
   background: rgb(0 0 0 / 40%);
 }
-
+.home {
+  position: absolute;
+}
 .topbar {
   height: 50px;
   width: 100%;
@@ -47,7 +49,6 @@ body {
   font-size: 14px;
   font-weight: 600;
   color: #818181;
-  display: inline-block;
 }
 .topbar-links a:hover {
   color: #FFF;
