@@ -81,7 +81,7 @@ body {
     border-radius: 50%;
   }
 }
-.circles{
+.circles {
   position: fixed;
   top: 0;
   left: 0;
@@ -288,12 +288,12 @@ body #center.preview-container {
 .showcase {
   position: relative;
   display: inline-block;
-  width: 47%;
+  width: 44%;
   height: 250px;
   margin-left: 1%;
   overflow: hidden;
   background: transparent;
-  z-index: 0;
+  z-index: 10;
   border-radius: 15px;
 }
 
