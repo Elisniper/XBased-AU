@@ -280,7 +280,6 @@ body #center.preview-container {
 * {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  -webkit-backface-visibility: hidden;
 }
 .project_container {
   z-index: 10;
