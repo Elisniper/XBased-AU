@@ -24,9 +24,38 @@
         <link rel="icon" type="image/png" sizes="64x64" href="/resources/Logo.png">
         <style>
           /* Media queries & mobile-specific styles */
+          @media screen and (max-width: 400px) and (min-width: 0px) {
+            body {
+                font-size: 14px;
+              }
+              .intoLine1, .intoLine2 {
+                font-size: 50px;
+              }
+              .showcase {
+                position: relative;
+                display: inline-block;
+                width: 93.5%;
+                height: 300px;
+                margin-bottom: 15px;
+                margin-left: 18px;
+              }
+              .showcase .thumbnail {
+                  right: 160px;
+              }
+              .showcase .desc {
+                width: 170px;
+              }
+              .showcase:hover .desc {
+                  width: 180px;
+              }
+              .showcase:hover .thumbnail {
+                  right: 150px;
+                  left: -25px;
+              }
+          }
           @media screen and (max-width: 500px) and (min-width: 400px) {
             body {
-                  font-size: 14px;
+                font-size: 14px;
               }
               .intoLine1, .intoLine2 {
                 font-size: 50px;
@@ -55,7 +84,7 @@
           }
           @media screen and (max-width: 600px) and (min-width: 500px) {
               body {
-                  font-size: 14px;
+                font-size: 14px;
               }
               .intoLine1, .intoLine2 {
                 font-size: 50px;
@@ -84,7 +113,7 @@
           }
           @media screen and (max-width: 1000px) and (min-width: 600px) {
             body {
-                  font-size: 14px;
+                font-size: 14px;
               }
               .intoLine1, .intoLine2 {
                 font-size: 50px;
@@ -113,7 +142,7 @@
           }
           @media screen and (max-width: 1150px) and (min-width: 1000px) {
             body {
-                  font-size: 14px;
+                font-size: 14px;
               }
               .intoLine1, .intoLine2 {
                 font-size: 50px;
